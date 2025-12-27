@@ -8,7 +8,8 @@ and structured data handling.
 ## 🛠️ Technologies Used
 - SQL
 - MySQL (or any relational database)
-- Markdown (for documentation)
+- React.js
+-Vite
 
 ## 📂 Project Structure
 - SQL queries for practice
@@ -16,12 +17,9 @@ and structured data handling.
 - Database-related examples
 
 ## 🚀 How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/OmkarAnand/cipherSQLHelper.git
-Open the SQL files in your preferred SQL editor.
+1. 🔗 Project Link (Clickable)
 
-Execute the queries on your database.
+👉 https://github.com/OmkarAnand/cipherSchoolSQL.
 
 🎯 Learning Outcomes
 
