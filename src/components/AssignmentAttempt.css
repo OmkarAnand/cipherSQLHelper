@@ -1,0 +1,144 @@
+.assignment-attempt {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.attempt-header {
+  background: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.back-button {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+.back-button:hover {
+  background: #5568d3;
+}
+
+.attempt-header h2 {
+  color: #333;
+  margin: 0;
+}
+
+.attempt-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 1.5rem;
+}
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.editor-section {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.editor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.editor-header h3 {
+  color: #333;
+  margin: 0;
+}
+
+.editor-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.hint-button,
+.execute-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.hint-button {
+  background: #ff9800;
+  color: white;
+}
+
+.hint-button:hover:not(:disabled) {
+  background: #f57c00;
+}
+
+.execute-button {
+  background: #4caf50;
+  color: white;
+}
+
+.execute-button:hover:not(:disabled) {
+  background: #45a049;
+}
+
+.hint-button:disabled,
+.execute-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.editor-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.hint-panel {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #fff3cd;
+  border-left: 4px solid #ff9800;
+  border-radius: 4px;
+}
+
+.hint-panel h4 {
+  margin: 0 0 0.5rem 0;
+  color: #856404;
+}
+
+.hint-panel p {
+  margin: 0;
+  color: #856404;
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .attempt-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
