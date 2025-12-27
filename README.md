@@ -19,7 +19,7 @@ and structured data handling.
 ## 🚀 How to Use
 1. 🔗 Project Link (Clickable)
 
-👉 https://github.com/OmkarAnand/cipherSchoolSQL.
+👉 https://omkaranand.github.io/cipherSQLHelper/
 
 🎯 Learning Outcomes
 
